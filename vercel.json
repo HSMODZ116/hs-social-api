@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "api/index.py"
     }
-  ]
+  ],
+  "env": {
+    "RATE_LIMIT": "10",
+    "RATE_WINDOW": "60",
+    "CACHE_TTL": "300"
+  }
 }
